@@ -81,7 +81,9 @@ body {
 
 #content-area {
     /* YOUR CODE HERE */
-    
+    float: left;
+    width: 75%;
+    padding: 20px;
 }
 
 /* ============================================
@@ -92,7 +94,9 @@ body {
 
 #main-container::after {
     /* YOUR CODE HERE */
-    
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ============================================
@@ -103,7 +107,11 @@ body {
 
 .journal-entry {
     /* YOUR CODE HERE */
-    
+    background-color: #d6f5f7;
+    border: 2px solid #7fd4dc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .entry-image {

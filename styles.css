@@ -10,6 +10,8 @@
    Date: 02/02/2026
 ============================================ */
 
+/* Special Features: #2 Hover Effects & Transitions, #3 Extra Responsive Breakpoint */
+
 /* ============================================
    STEP 1: BASE RESET & TYPOGRAPHY
    ============================================ */
@@ -141,5 +143,54 @@ body {
     
     #sidebar {
         margin-bottom: 20px;
+    }
+}
+
+/* ============================================
+   SPECIAL FEATURE #2:
+   HOVER EFFECTS & TRANSITIONS
+   ============================================ */
+
+.journal-entry {
+    transition: transform 0.3s ease;
+}
+
+.journal-entry:hover {
+    transform: translateY(-3px);
+}
+
+.entry-image {
+    transition: transform 0.3s ease;
+}
+
+.entry-image:hover {
+    transform: scale(1.05);
+}
+
+.friends-list li {
+    transition: color 0.3s ease;
+}
+
+.friends-list li:hover {
+    color: #4a90e2;
+}
+
+
+/* ============================================
+   SPECIAL FEATURE #3:
+   EXTRA RESPONSIVE BREAKPOINT
+   ============================================ */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #main-container {
+        max-width: 90%;
+    }
+
+    #sidebar {
+        width: 30%;
+    }
+
+    #content-area {
+        width: 70%;
     }
 }

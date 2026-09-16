@@ -55,8 +55,14 @@ body {
 ============================================ */
 
 #header-box {
-    /* YOUR CODE HERE */
-    
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#header-box h1 {
+    font-size: 2em;
 }
 
 /* ============================================

@@ -80,7 +80,6 @@ body {
 }
 
 #content-area {
-    /* YOUR CODE HERE */
     float: left;
     width: 75%;
     padding: 20px;
@@ -93,7 +92,6 @@ body {
 ============================================ */
 
 #main-container::after {
-    /* YOUR CODE HERE */
     content: "";
     display: table;
     clear: both;
@@ -106,7 +104,6 @@ body {
 ============================================ */
 
 .journal-entry {
-    /* YOUR CODE HERE */
     background-color: #d6f5f7;
     border: 2px solid #7fd4dc;
     border-radius: 8px;
@@ -115,9 +112,12 @@ body {
 }
 
 .entry-image {
-    /* YOUR CODE HERE */
-    /* Add picture frame effect */
-    
+    float: right;
+    margin-left: 15px;
+    border: 12px solid #fff;
+    box-shadow: 0 0 0 2px #333;
+    padding: 8px;
+    background: white;
 }
 
 /* ============================================
